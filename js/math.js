@@ -11,15 +11,15 @@
 // console.log(Math.floor(number))
 
 //STEP 4
-// let numbers=prompt(`Enter a 5 numbers, separated by coma(ex. 1,2,3,4,5) `);
-// let result= numbers.split(',')
-// let temp=[];
-// for (let i of result){
-//     temp.push(parseInt(i));
-// }
-// temp.sort();
-// console.log( temp[temp.length-1], temp[0]);
+let numbers=prompt(`Enter a 5 numbers, separated by coma(ex. 1,2,3,4,5) `);
+let result= numbers.split(',')
+let temp=[];
+for (let i of result){
+    temp.push(parseInt(i));
+}
+console.log( Math.max(...temp));
+console.log( Math.min(...temp));
 
 //STEP 5
-let number=parseFloat(prompt(`Enter a number`));
-console.log(Math. sqrt(number))
+// let number=parseFloat(prompt(`Enter a number`));
+// console.log(Math. sqrt(number))
